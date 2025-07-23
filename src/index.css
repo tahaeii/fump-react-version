@@ -1,0 +1,36 @@
+@import url("assets/fonts/farsi-font/iran-sans/iran-sans.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css");
+
+.rtl {
+  direction: rtl;
+}
+
+.pe-pointer {
+  cursor: pointer;
+}
+
+*:not(i) {
+  font-family: 'IRANSansX', sans-serif !important;
+  font-feature-settings: 'ss02';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* height: 100%; */
+  background-color: #fbfbfe;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  scrollbar-width: thin;
+  scrollbar-color: #7f90a9 #e0e0e0;
+  /* overflow-x: hidden !important; */
+}
+
+.content {
+  /* border-radius: 10px 0px 10px 10px;
+  margin: 0 25px 0 16px;
+  overflow: auto; */
+  min-height: 100%;
+}

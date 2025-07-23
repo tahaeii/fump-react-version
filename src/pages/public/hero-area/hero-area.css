@@ -1,0 +1,161 @@
+.slider-container {
+    position: relative;
+    /* width: 100%;
+  max-width: 500px; */
+    /* margin: auto; */
+    text-align: center;
+}
+
+.hero-thumb {
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.slider-image {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.info-container {
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    bottom: -43px;
+    transform: translateX(-50%);
+    /* width: calc(100% - 20px);
+      max-width: 476px; */
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 10px;
+    z-index: 9;
+}
+
+.image-description {
+    font-size: 20px;
+    flex: 1;
+    text-align: right;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.image-subdescription {
+    font-size: 11px;
+    flex: 1;
+    float: right;
+    padding-right: 5px;
+    color: white;
+}
+
+.image-number {
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.image-pagination .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    margin: 10px 1rem;
+    direction: ltr;
+}
+
+.image-pagination .pagination span {
+    width: 6px;
+    height: 6px;
+    background-color: #7c7c7c;
+    border-radius: 50%;
+    display: inline-block;
+    transition: width 0.3s, border-radius 0.3s;
+}
+
+.image-pagination .pagination .active {
+    width: 16px;
+    height: 4px;
+    margin-top: 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+@media (max-width: 991px) {
+
+    /* برای تبلت و موبایل */
+    .slider-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-thumb {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider-image {
+        width: 90%;
+        max-height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .info-container {
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .image-description {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .image-subdescription {
+        font-size: 11px;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .image-pagination {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .image-pagination .pagination {
+        gap: 3px;
+        margin: 5px 0;
+    }
+
+    .image-pagination .pagination span {
+        width: 5px;
+        height: 5px;
+    }
+
+    .image-pagination .pagination .active {
+        width: 12px;
+        height: 3px;
+    }
+
+    .image-number {
+        font-size: 20px;
+    }
+}
+
+.hero_area .fump-btn {
+    top: 32.25px;
+    left: -10px;
+}
