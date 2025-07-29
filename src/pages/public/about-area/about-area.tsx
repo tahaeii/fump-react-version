@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import kaleferdowsi from '../../../assets/img/kale-ferdowsi.png';
 import "./about-area.css";
 
 
@@ -89,7 +90,7 @@ export default function AboutArea() {
 
                     <div className="row">
                         <div className="col-lg-4">
-                            <img src="assets/img/kale-ferdowsi.png" alt="دانشگاه فردوسی" title="دانشگاه فردوسی" loading="lazy" />
+                            <img src={kaleferdowsi} alt="دانشگاه فردوسی" title="دانشگاه فردوسی" loading="lazy" />
                         </div>
                     </div>
                 </div>

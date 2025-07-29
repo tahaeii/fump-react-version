@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import PublicLayout from './layouts/public/publicLayout';
 import Public from './pages/public/public';
-import Panel from './pages/panel/panel';
 import PanelLayout from './layouts/panel/panelLayout';
 import Dashboard from './pages/panel/dashboard/dashboard';
 

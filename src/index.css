@@ -1,5 +1,18 @@
-@import url("assets/fonts/farsi-font/iran-sans/iran-sans.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css");
+/* @import 'assets/css/owl.carousel.min.css'; */
+@import 'assets/css/animate.css';
+@import 'assets/css/animated-text.css';
+@import 'assets/css/theme-default.css';
+@import 'assets/css/meanmenu.min.css';
+@import 'assets/css/owl.transitions.css';
+@import 'assets/css/bootstrap-icons.css';
+@import 'assets/css/style.css';
+@import 'assets/css/dark-lite.css';
+@import 'assets/css/responsive.css';
+@import 'assets/css/coustom-animation.css';
+@import 'assets/css/odometer-theme-default.css';
+@import 'assets/css/scroll-up.css';
+
 
 .rtl {
   direction: rtl;

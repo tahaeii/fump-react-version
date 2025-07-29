@@ -1,4 +1,15 @@
 import { useEffect, useState } from "react";
+import slider1 from '../../../assets/img/slider/slider-pic-1.png';
+import slider2 from '../../../assets/img/slider/slider-pic-2.png';
+import slider3 from '../../../assets/img/slider/slider-pic-3.png';
+import slider4 from '../../../assets/img/slider/slider-pic-4.png';
+import slider5 from '../../../assets/img/slider/slider-pic-5.png';
+import slider6 from '../../../assets/img/slider/slider-pic-6.png';
+import slider7 from '../../../assets/img/slider/slider-pic-7.png';
+import slider8 from '../../../assets/img/slider/slider-pic-8.png';
+import slider9 from '../../../assets/img/slider/slider-pic-9.png';
+import slider10 from '../../../assets/img/slider/slider-pic-10.png';
+import slider11 from '../../../assets/img/slider/slider-pic-11.png';
 import "./hero-area.css";
 
 export default function HeroArea() {
@@ -7,57 +18,57 @@ export default function HeroArea() {
 
     const images = [
         {
-            src: '/assets/img/slider/slider-pic-1.png',
+            src: slider1,
             description: 'شرکت ابر فردوسی',
             subdescription: 'سرویس‌های هوش مصنوعی، سرویس‌های ابری و GPU',
         },
         {
-            src: '/assets/img/slider/slider-pic-2.png',
+            src: slider2,
             description: 'شرکت ابر فردوسی',
             subdescription: 'سرویس‌های ابری، سرویس‌های هوش مصنوعی و GPU',
         },
         {
-            src: '/assets/img/slider/slider-pic-3.png',
+            src: slider3,
             description: 'آزمایشگاه‌های پیشرفته',
             subdescription: 'آزمایشگاه‌های نانو، بیو و مرجع غذایی',
         },
         {
-            src: '/assets/img/slider/slider-pic-4.png',
+            src: slider4,
             description: 'شرکت صنایع پیشرفته هواخورشید',
             subdescription: 'توربین‌های بادی و پنل‌های خورشیدی',
         },
         {
-            src: '/assets/img/slider/slider-pic-5.png',
+            src: slider5,
             description: 'شرکت ابر فردوسی',
             subdescription: 'GPU و سرویس‌های ابری',
         },
         {
-            src: '/assets/img/slider/slider-pic-6.png',
+            src: slider6,
             description: 'شرکت پایا انرژی',
             subdescription: 'طرح‌‌های کلان نفتی',
         },
         {
-            src: '/assets/img/slider/slider-pic-7.png',
+            src: slider7,
             description: 'شرکت دانش بنیان هیدروتک ',
             subdescription: 'داشبورد‌های هوش تجاری و رصدخانه‌های هوشمند',
         },
         {
-            src: '/assets/img/slider/slider-pic-8.png',
+            src: slider8,
             description: 'شهر سبز',
             subdescription: 'ساختمان‌های زیرو کربن',
         },
         {
-            src: '/assets/img/slider/slider-pic-9.png',
+            src: slider9,
             description: 'شرکت پایا انرژی',
             subdescription: 'طرح‌‌های کلان نفتی و اکتشاف',
         },
         {
-            src: '/assets/img/slider/slider-pic-10.png',
+            src: slider10,
             description: 'شرکت صنایع پیشرفته هواخورشید',
             subdescription: 'طراحی و ساخت پنل‌های خورشیدی و توربین‌های بادی',
         },
         {
-            src: '/assets/img/slider/slider-pic-11.png',
+            src: slider11,
             description: 'شرکت دانش‌بنیان هیدروتک',
             subdescription: 'رصدخانه‌ها و داشبورد‌های هوش تجاری',
         },
@@ -77,7 +88,7 @@ export default function HeroArea() {
 
     return (
         <>
-            <section className="hero_area d-flex align-items-center boxed" 
+            <section className="hero_area d-flex align-items-center boxed"
             >
                 <div className="container">
                     <div className="row align-items-center mt-5 rtl">
@@ -86,7 +97,7 @@ export default function HeroArea() {
                                 <h1>
                                     هلدینگ دانشگاهی پیشگامان فردوسی
                                     <br />
-                                        پلی بین دانشگاه و صنعت
+                                    پلی بین دانشگاه و صنعت
                                 </h1>
                                 <p>
                                     شرکت دانشگاهی پیشگامان فردوسی، با ایجاد یک مدل نوآورانه از مشارکت بخش خصوصی و دانشگاه، به تجاری‌سازی دانش
